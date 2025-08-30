@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { useState, Fragment } from 'react'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser';

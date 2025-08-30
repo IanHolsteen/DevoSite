@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 

@@ -1,11 +1,7 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable react/jsx-key */
-import { useRef, useState, useEffect } from 'react';
-import { useRouter } from 'next/router'
-import Link from 'next/link';
-// import ContentEditable from 'react-contenteditable';
+import { useRef, useState } from 'react';
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
+import Link from 'next/link'
 import { EllipsisVerticalIcon } from '@heroicons/react/20/solid'
 import {
     FolderIcon,
@@ -52,7 +48,6 @@ export default function Projects() {
 }
 
 function Project({ project, projectIdx, length, projects, setProjects }) {
-    const [editing, setEditing] = useState(false);
 
     const descRef = useRef();
 

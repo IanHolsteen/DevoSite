@@ -1,9 +1,4 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
-/* eslint-disable @next/next/no-img-element */
-import { CameraIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
-import Portait from '../public/images/portrait.jpg'
-import Link from 'next/link'
 
 export default function Example() {
     return (

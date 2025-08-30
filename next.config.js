@@ -4,8 +4,8 @@ const nextConfig = {
   output: 'export', // for static site generation
   images: { unoptimized: true }, // required for static exports
   trailingSlash: true, // helps with GitHub Pages routing
-  basePath: '/DevoSite', // matches the subdirectory
-  assetPrefix: '/DevoSite/', // ensures assets load from the correct path
+  // basePath: '/DevoSite',
+  // assetPrefix: '/DevoSite/', // ensures assets load from the correct path
 };
 
 module.exports = nextConfig;
