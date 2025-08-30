@@ -43,7 +43,7 @@ export default function Example() {
                             <figure>
                                 <div className="relative w-full max-w-sm mx-auto drop-shadow-xl">
                                     <Image
-                                        src={Portait}
+                                        src='/images/portrait.jpg'
                                         alt="Portrait of Ian Holsteen"
                                         className="rounded-none object-cover object-center"
                                         width={600}

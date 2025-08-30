@@ -1,14 +1,14 @@
  /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === 'production'
+const nextConfig = {
+  output: 'export', // for static site generation
+  images: { unoptimized: true }, // required for static exports
+  trailingSlash: true, // helps with GitHub Pages routing
+  basePath: '/DevoSite', // matches the subdirectory
+  assetPrefix: '/DevoSite/', // ensures assets load from the correct path
+};
 
-module.exports = {
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-}
-
+module.exports = nextConfig;
 // const nextConfig = {
 //   reactStrictMode: true,
 
@@ -38,7 +38,7 @@ module.exports = {
 //         protocol: 'https',
 //         hostname: 'www.github.com',
 //         port: '',
-//         pathname: '/markgowen/capstone_portfolio/**',
+//         pathname: '/**',
 //       },
 //     ]
 //   }
