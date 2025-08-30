@@ -7,10 +7,8 @@ module.exports = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? '/your-repo-name' : '',
-  assetPrefix: isProd ? '/your-repo-name/' : '',
 }
-
+g
 // const nextConfig = {
 //   reactStrictMode: true,
 
